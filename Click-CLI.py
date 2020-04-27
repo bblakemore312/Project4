@@ -9,3 +9,22 @@ import click
 @click.option("--keyRecord", prompt="Your desired key to input", help="The key to add.")
 @click.option("--keyRetrieve", prompt="Your desired key to retrieve", help="The key to find.")
 
+def factorialTest(Factorial):
+  Fact1(Factorial)
+  
+def fibonacciTest(Fibonacci):
+  fibo_send(Fibonacci)
+  
+def primeTest(Prime):
+  prime(Prime)
+  
+def SlackMessage(Slack):
+  send_message_to_slack(Slack)
+  
+def keyRecorder(keyRecord):
+  record(keyRecord)
+  
+def keyRetriever(keyRetrieve):
+  retrieve(keyRetrieve)
+
+
