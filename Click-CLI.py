@@ -4,7 +4,7 @@ import click
 
 @cli.command()
 def Main():
-  click.echo("Command line initialized, enter -h for help:")
+  @click.echo("Command line initialized, enter -h for help:")
 
 @cli.command()
 def rootTest():
