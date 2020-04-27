@@ -17,7 +17,7 @@ def factorialTest(Factorial):
   Fact1(Factorial)
   
 def fibonacciTest(Fibonacci):
-  fibo_send(Fibonacci)
+  fibo(Fibonacci)
   
 def primeTest(Prime):
   prime(Prime)
