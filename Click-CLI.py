@@ -9,6 +9,9 @@ import click
 @click.option("--keyRecord", prompt="Your desired key to input", help="The key to add.")
 @click.option("--keyRetrieve", prompt="Your desired key to retrieve", help="The key to find.")
 
+def rootTest(funcTest):
+  root()
+
 def factorialTest(Factorial):
   Fact1(Factorial)
   
