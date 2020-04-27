@@ -2,6 +2,7 @@ import API
 import os
 import click
 
+@click.command()
 @click.option("--Factorial", prompt="The number you want to factor:", help="The number you want factored.")
 @click.option("--Fibonacci", prompt="How many numbers you want Fibonacci'd", help="The amount of places to see in the Fibonacci Sequence.")
 @click.option("--Prime", prompt="The number to test", help="The number we want to check if is prime.")
