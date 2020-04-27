@@ -2,6 +2,9 @@ import API
 import os
 import click
 
+def Main():
+  click.echo("Command line initialized, enter -h for help:")
+
 @cli.command()
 def rootTest():
   root()
