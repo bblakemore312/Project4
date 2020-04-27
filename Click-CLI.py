@@ -36,4 +36,5 @@ def keyRecorder(keyRecord):
 def keyRetriever(keyRetrieve):
   retrieve(keyRetrieve)
 
-
+if __name__ == '__main__':
+  cli()
